@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box
+}
+div#social-icons {
+    position: fixed;
+    width: 60px;
+    margin-top: 210px;
+    margin-bottom: 0rem;
+    transition: all 0.3s linear;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .4);
+    z-index: 999999;
+}
+
+div#social-icons ul {
+    margin-top: 0;
+    margin-bottom: 0rem
+}
+
+div#social-icons li {
+    height: 45px;
+    margin-bottom: 0rem;
+    position: relative;
+    z-index: 10000;
+}
+
+div#social-icons li a {
+    color: #fff !important;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 45px;
+    padding-left: 25%;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+    transition: all .3s linear;
+    text-decoration: none !important
+}
+
+div#social-icons li:nth-child(1) a {
+    background: #4267B2
+}
+
+div#social-icons li:nth-child(2) a {
+    /* background: #1DA1F2 */
+    background: #E1306C
+}
+
+div#social-icons li:nth-child(3) a {
+    /* background: #E1306C */
+    background: #2867B2
+}
+
+div#social-icons li:nth-child(4) a {
+    /* background: #2867B2 */
+    background: #ff0000
+}
+
+div#social-icons li:nth-child(5) a {
+    background: #333
+}
+
+div#social-icons li:nth-child(6) a {
+    background: #ff0000
+}
+
+div#social-icons li a i {
+    position: absolute;
+    top: 14px;
+    left: 24px;
+    margin-bottom: 0rem;
+}
+
+ul#social-icons-ul li a span {
+    display: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase
+}
+
+ul#social-icons-ul li a:hover {
+    z-index: 1;
+    width: 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3)
+}
+
+ul#social-icons-ul li:hover a span {
+    padding-left: 30%;
+    display: block;
+    font-size: 15px
+}
